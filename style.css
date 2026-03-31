@@ -1,0 +1,185 @@
+   
+        :root {
+            --rojo: #c8102e;
+            --dorado: #f4c542;
+            --rojo-oscuro: #a00d24;
+        }
+        
+        * {
+            font-family: 'Poppins', sans-serif;
+        }
+
+		.min-h-screen {
+			margin: 0%;
+			padding: 0%;
+		}
+
+        body {
+			margin: 0;
+			padding: 0;
+            background-image: url("https://raw.githubusercontent.com/dreemurra644-source/Rec-/main/n.png");
+            color: white;
+            background-position: center;
+            background-size: 60%;
+            background-attachment: fixed;
+            background-color: #7f0000;
+            background-repeat: no-repeat;
+            }
+        @media(max-width: 768px){ 
+        
+        body {
+            background-image: url("https://raw.githubusercontent.com/dreemurra644-source/Rec-/main/n.png");
+      
+            background-position: center;
+            background-attachment: fixed;
+            background-size: 100% auto;
+        }
+        
+        }
+
+        .pizza {
+			background-size: cover;
+			background-image:url('https://cdn.gamma.app/rzf7zdivw10vxxk/72709e4f67cf4e60b0c0fe71d84ebcf1/original/IMG-20250919-WA0034.jpg') ;
+            color: #000000;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+		.sandwich {
+			background-size: cover;
+			background-image:url('https://imgproxy.gamma.app/resize/quality:80/resizing_type:fit/width:1200/https://cdn.gamma.app/rzf7zdivw10vxxk/c17c8c462838477393b831c9a8f04f62/original/20250919_222620.jpg') ;
+			color: #ffffff;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+		.san-tex {
+			background-color: #7f0000;
+			color: #ffffff;
+			margin: 0%;
+			padding: 0%;
+			border: 1,5rem rgba(0, 0, 0, 0);
+			border-radius: 5px;
+			box-shadow: 0 4px 15px;
+			display: inline-block;
+
+		}
+        
+		  
+		.plato {
+			background-size: cover;
+			background-image:url('https://cdn.gamma.app/rzf7zdivw10vxxk/243723a7100c4286845548fc838a14c0/original/IMG-20250919-WA0030.jpg') ;
+            
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+		.p-t {
+			background-color: #7f0000;
+			color: #ffffff;
+			margin: 0%;
+			padding: 0%;
+			border: 1,5rem rgba(0, 0, 0, 0);
+			border-radius: 5px;
+			box-shadow: 0 4px 15px;
+			display: inline-block;
+
+		}
+        
+		  
+		.shawarma {
+			background-size: cover;
+			background-image:url('https://cdn.gamma.app/rzf7zdivw10vxxk/74e9ac170c4b4b26a14547da7f3b6b98/original/IMG-20250919-WA0024.jpg') ;
+            color: #000000;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+		sh-t {
+			background-color: #7f0000;
+			color: #ffffff;
+			margin: 0%;
+			padding: 0%;
+			border: 1,5rem rgba(0, 0, 0, 0);
+			border-radius: 5px;
+			box-shadow: 0 4px 15px;
+			display: inline-block;
+
+		}
+        
+		  
+		.gaseosas {
+			background-size: cover;
+			background-image:url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Frare-gallery.com%2Fuploads%2Fposts%2F1248270-coca-cola-ice-bottle.jpg&f=1&nofb=1&ipt=1eb1c6fdf0388815cce6bc020b61972c06ccd81dd00c7402f45122f9481024cb') ;
+            color: #000000;
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        
+		.g-t {
+			background-color: #7f0000;
+			color: #ffffff;
+			margin: 0%;
+			padding: 0%;
+			border: 1,5rem rgba(0, 0, 0, 0);
+			border-radius: 5px;
+			box-shadow: 0 4px 15px;
+			display: inline-block;
+
+		}
+		
+        .card:hover {
+            transform: translateY(-12px) scale(1.04);
+            box-shadow: 0 25px 50px -12px rgba(200, 16, 46, 0.4);
+        }
+
+        .nav-link {
+            position: relative;
+            color: white;
+        }
+        
+        .nav-link:after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 3px;
+            bottom: -4px;
+            left: 0;
+            background-color: var(--dorado);
+            transition: width 0.3s ease;
+        }
+        
+        .nav-link:hover:after {
+            width: 100%;
+        }
+
+        .hero-bg {
+            margin: 0%;
+			padding: 0%;
+			background: linear-gradient(rgba(200, 16, 46, 0.85), rgba(186, 0, 28, 0.9)), url('https://cdn.gamma.app/rzf7zdivw10vxxk/8a0549aeab784c82bd3058f4386f1545/original/Texto.png') center/cover;
+		}
+
+        .modal-content {
+            background: white;
+            color: #1f2937;
+        }
+
+         .title-hero {
+            font-size: clamp(2.5rem, 8vw, 4.5rem);
+            line-height: 1.05;
+        }
+
+        .btn-rojo {
+            background: var(--rojo);
+            color: white;
+        }
+        
+        .btn-rojo:hover {
+            background: var(--rojo-oscuro);
+        }
+
+        .btn-dorado {
+            background: var(--dorado);
+            color: #1f2937;
+            font-weight: 600;
+        }
+
+		.icon-time {
+			height: 35px;
+			width: 35px;
+		}
